@@ -24,10 +24,20 @@ public class User {
 	
 	@Column
 	private String email;
-	
 	@Column
 	private String address;
+	@Column
+	private String DateofBirth;
 
+	public String getDateofBirth() {
+		return DateofBirth;
+	}
+
+	public void setDateofBirth(String dateofBirth) {
+		DateofBirth = dateofBirth;
+	}
+
+	
 	public String getFirstname() {
 		return firstname;
 	}
